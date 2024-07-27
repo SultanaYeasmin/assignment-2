@@ -1,9 +1,578 @@
+.inter-main {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+div > img {
+    width: 100%;
+}
+
+body {
+    /* max-width: 1500px; */
+    background-color: black;
+}
+
 .section-1,
 .section-2,
 .section-3,
-.section-5 {
-    max-width: 1100px;
+.section-5,
+nav,
+.banner,
+.footer-details,
+.section-4-container {
+    max-width: 1060px;
     margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 467px;
+}
+
+.nav-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: rgba(230, 83, 60, 1);
+}
+
+.nav-menu {
+    border: 1px solid rgba(255, 255, 255, 0.169);
+    border-radius: 46px;
+}
+
+.nav-menu > button {
+    margin-left: 10px;
+}
+
+.btn-primary-nav {
+    font-size: 18px;
+    padding: 12px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 46px;
+}
+
+.btn1-nav {
+    font-size: 18px;
+    padding: 8px 20px;
+    color: white;
+    background-color: #E6533C;
+    font-weight: 600px;
+    border-radius: 46px;
+    width: 92px;
+    border: none;
+}
+
+.ham-menu {
+    display: none;
+}
+
+.banner-h1-font {
+    font-size: 78px;
+    font-weight: bold;
+    color: white;
+}
+
+.letter-style {
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;
+    font-weight: 700px;
+    color: white;
+}
+
+.para {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-para {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.btn-primary-clr {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: rgba(230, 83, 60, 1);
+    padding: 16px 47px;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-primary-black {
+    color: white;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: black;
+    padding: 16px 48px;
+    border: 2px solid white;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.banner-button-1 {
+    background-color: rgba(255, 255, 255, 0.233);
+    border: 1px solid rgba(255, 255, 255, 0.146);
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    top: -400px;
+    right: -120px;
+}
+
+
+.banner-button-2 {
+    background-color: rgba(255, 255, 255, 0.233);
+    border: 1px solid rgba(255, 255, 255, 0.146);
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    top: -180px;
+    left: -110px;
+}
+
+.habit-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* .habit-container > div {
+    width: 18%;
+} */
+.habit-card {
+    width: 200px;
+    height: 200px;
+}
+
+.habit-card>h4 {
+    color: white;
+    text-align: center;
+}
+
+.habit-card>.para {
+    text-align: center;
+}
+
+.unique-section {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 200px;
+    padding: 30px;
+}
+
+.unique-section-title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+
+}
+
+.section-2 {
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 12px;
+}
+
+.unique-section>div>img {
+    border-radius: 10px;
+    height: 100%;
+
+}
+
+.unique-section>div {
+    width: 48%;
+}
+
+.sq-collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    border-radius: 12px;
+}
+
+/* section-3 */
+.section-3-column1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.25fr;
+}
+
+.section-3-column2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    margin-top: 0px;
+}
+
+.section-3-column1 img,
+.section-3-column2 img {
+    width: 100%;
+    height: 200px;
+}
+
+.exercise-op1,
+.exercise-op3,
+.exercise-op5,
+.exercise-op6 {
+    position: relative;
+    top: -30px;
+    right: -10px;
+    color: rgb(17, 0, 255);
+    font-size: 16px;
+    font-weight: 900px;
+    background-color: antiquewhite;
+}
+
+.exercise-op2 {
+    position: relative;
+    top: -170px;
+    right: -10px;
+    color: rgb(17, 0, 255);
+    font-size: 16px;
+    font-weight: 900px;
+    background-color: antiquewhite;
+}
+
+.exercise-op4 {
+    position: relative;
+    top: -170px;
+    right: -200px;
+    color: rgb(17, 0, 255);
+    font-size: 16px;
+    font-weight: 900px;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sec-3 ends */
+
+/*  section4 starts............ */
+.section-4-bg {
+    background-color: rgba(255, 255, 255, 0.174);
+
+}
+
+.section-4-column1 {
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.section-4-column2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section-4-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.section-4-container>div {
+    flex: 1;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    text-align: left;
+}
+
+th,
+td {
+
+    border: 1px solid rgba(255, 255, 255, 0.196);
+}
+
+.bmi-form {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.bmi-form>input,
+.bmi-form>select {
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.429);
+    border: none;
+    height: 30px;
+    padding-left: 5px;
+
+}
+
+#last-row-form {
+    grid-column: span 2;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* section4 ends............................................. */
+
+.image-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    /* gap: 15px; */
+    gap: 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.174);
+    padding: 20px;
+    height: 700px;
+
+}
+
+.image-container-2 {
+    display: none;
+}
+
+.image-container-1>div>img,
+.image-container-2>div>img {
+    height: 320px;
+    border-radius: 12px;
+}
+
+
+.name {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    top: -70px;
+    left: 20px;
+
+}
+
+.trainer-style {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: -70px;
+    left: 20px;
+
+
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.098);
+    margin-bottom: 30px;
+}
+
+.footer-para {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+}
+
+.footer-title {
+    font-size: 78px;
+    font-weight: bolder;
+    color: rgba(230, 83, 60, 1);
+}
+
+.footer-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-column-2>ul>li,
+.footer-column-3>ul>li {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    left: -40px;
+    margin-top: 10px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.445);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ................................................................................... */
+/* .............for mobile device.......................................................... */
+
+
+@media screen and (max-width: 576px) {
+   .nav-menu{
+    display: none;
+   }
+    
+    .ham-menu {
+        display: block;
+        color: white;
+    }
+    .nav-container {
+        justify-content: space-between;
+        align-items: center;    
+        /* gap: 50px; */
+    }
+
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .habit-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habit-card {
+        height: 100%;
+    }
+
+    .unique-section {
+        flex-direction: column;
+        margin-top: 20px;
+        height: auto;
+        align-items: center;
+
+    }
+
+    .unique-section>div {
+        width: 100%;
+    }
+
+    .sq-collage {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        border-radius: 12px;
+    }
+
+    .section-4-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .image-container-1 {
+        display: none;
+    }
+
+    .image-container-2 {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.174);
+        padding: 15px;
+    }
+
+    .image-container-2>img {
+        border-radius: 12px;
+        align-items: center;
+        height: auto;
+
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-copyright {
+        text-align: left;
+    }
+
+    .section-3-column1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-3-column2 {
+        display: grid;
+        grid-template-columns: .9fr 1.1fr;
+
+    }
+
+    .ex-3,
+    .ex-6 {
+        display: none;
+    }
+
+    .exercise-op1,
+    .exercise-op5,
+    .exercise-op4 {
+        position: relative;
+        top: -30px;
+        right: -10px;
+
+    }
+
+    .exercise-op2 {
+        position: relative;
+        top: -170px;
+        right: -10px;
+
+    }
+
 
 
 }

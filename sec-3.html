@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            max-width: 1060px;
+            margin: 0 auto;
+            background-color: black;
+        }
+
+        .para {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bolder;
+            color: white;
+            text-align: center;
+            margin-top: 38px;
+        }
+        
+         .section-3-column1 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1.25fr;
+         }
+         .section-3-column2 {
+            display: grid;
+            grid-template-columns: 3fr 2fr 1fr;
+            margin-top: 0p;
+         }
+         
+        .section-3-column1  img,
+        .section-3-column2  img {
+            width:  100%;
+            height: 200px;
+        }
+  
+    </style>
+</head>
+
+<body>
+    <section class="section-3">
+        <h1 style="text-align: left;" class="section-title">Training and Exercises</h1>
+        <p class="para" style="text-align: left;"> To keep your body fit, you must know Body Mass Index (BMI). To
+            know your BMI, you can use the following table:</p>
+       
+            <div class="section-3-column1">
+                <div class="ex-1"><img src="images/exercise1.jpg" alt=""></div>
+                <div class="ex-2"><img src="images/exercise2.png" alt=""></div>
+                <div class="ex-3" ><img src="images/exercise3.png" alt=""></div>
+            </div>
+            <div class="section-3-column2">
+                <div class="ex-4"><img src="images/exercise4.png" alt=""></div>
+                <div class="ex-5"><img src="images/exercise5.jpg" alt=""></div>
+                <div class="ex-6"><img src="images/exercise6.jpg" alt=""></div>
+            </div>
+        
+    </section>
+</body>
+
+</html>
