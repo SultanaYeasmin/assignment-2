@@ -1,0 +1,226 @@
+/* ................................................................................... */
+/* .............for mobile device.......................................................... */
+
+
+@media screen and (max-width: 576px) {
+    body {
+        margin-top: 52px;
+    }
+
+    nav,
+    .banner,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-5,
+    .footer-details,
+    .section-4-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner {
+        margin-top: 51px;
+    }
+
+
+    .section-1,
+    .section-2 {
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+        color: white;
+    }
+
+    .nav-container {
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .banner-h1-font,
+    .letter-style {
+        font-size: 36px;
+    }
+
+    
+    .btn-primary-clr1 {
+        display: block;
+        padding: 10px 5px;
+        width: 130px;
+        font-size: 15px;
+    }
+
+    .btn-primary-black {
+        padding: 10px 5px;
+        width: 130px;
+        font-size: 15px;
+    }
+
+    .play-button {
+        display: block;
+    }
+
+    .banner-button-1 {
+        top: 8%;
+        left: 55%;
+        padding: 10px;
+
+    }
+
+    .banner-button-2 {
+        top: 50%; padding: 10px;
+
+    }
+
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .banner-container>div {
+        width: 100%;
+    }
+
+    .banner-2-buttons {
+        max-width: 100%;
+    }
+
+    .banner-column-111 {
+        width: 97%;
+    }
+
+    .five-hundred {
+       
+        font-size: 20px;
+    }
+
+    .five-hundred-para {
+        font-size: 10px;
+       
+        
+    }
+    .three-fifty{
+        font-size: 20px; 
+        font-weight: bold;}
+    
+    .three-fifty-para
+     {font-size: 10px; 
+        color: rgba(239, 237, 232, 0.65);}
+/* ----banner-part ends here.... */
+.section-title {
+    
+    margin-top: 0px;
+}
+.habit-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habit-card {
+        height: 100%;
+    }
+/* unique-section-starts........ */
+    .unique-section {
+        flex-direction: column;
+        margin-top: 20px;
+        height: auto;
+        align-items: center;
+
+    }
+    .section-2{
+        margin-top: 60px;
+    }
+    .unique-section > div {
+        width: 100%;
+    }
+
+    .sq-collage {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 200px);
+        gap: 15px;
+        border-radius: 12px;
+    }
+    .sq-collage > img {
+        height: auto;
+    }
+/* unique-section-ends */
+/* section-3-starts........optional */
+.section-3-column1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-3-column2 {
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+
+}
+
+.ex-3,
+.ex-6 {
+    display: none;
+}
+
+.exercise-op1,
+.exercise-op5,
+.exercise-op4 { 
+    top:80% ;
+    left: 5%;
+}
+
+.exercise-op2 {
+    top:20% ;
+    left: 20%;
+}
+/* section-3-ends........optional */    
+
+.section-4-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .image-container-1 {
+        display: none;
+    }
+
+    .image-container-2 {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.174);
+        padding: 15px;
+    }
+
+    .image-container-2 > img {
+        border-radius: 12px;
+        align-items: center;
+        height: auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-copyright {
+        text-align: left;
+    }
+
+    
+
+    .circle {
+        display: none;
+    }
+
+
+}
