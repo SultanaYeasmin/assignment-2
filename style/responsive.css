@@ -109,6 +109,9 @@
        
         
     }
+    .circle {
+        display: none;
+    }
     .three-fifty{
         font-size: 20px; 
         font-weight: bold;}
@@ -146,9 +149,9 @@
 
     .sq-collage {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 200px);
+        grid-template-rows: repeat(4, 150px);
         gap: 15px;
-        border-radius: 12px;
+        
     }
     .sq-collage > img {
         height: auto;
@@ -163,31 +166,40 @@
 .section-3-column2 {
     display: grid;
     grid-template-columns: .9fr 1.1fr;
-
 }
-
 .ex-3,
 .ex-6 {
     display: none;
 }
-
 .exercise-op1,
 .exercise-op5,
 .exercise-op4 { 
     top:80% ;
     left: 5%;
 }
-
 .exercise-op2 {
     top:20% ;
     left: 20%;
 }
-/* section-3-ends........optional */    
+/* ................section-3-ends........optional */    
 
-.section-4-container {
+/* .............section-4 starts here */
+    .section-4-container {
         flex-direction: column;
         height: auto;
-    }
+        }
+
+        .section-4-header {
+            position: relative;
+            margin-left: 0px;
+            margin-right: 0px;
+            text-align: justify;
+            
+        }
+/* .............section-4 ends here */
+
+
+    /* .............section-5 starts here */
     .image-container-1 {
         display: none;
     }
@@ -206,6 +218,11 @@
         align-items: center;
         height: auto;
     }
+    /* .............section-5 ends here */
+
+
+    /* footer starts............. */
+    .image-container-1 {
 
     .footer-container {
         flex-direction: column;
@@ -216,11 +233,9 @@
         text-align: left;
     }
 
-    
+    /* footer-part ends */
 
-    .circle {
-        display: none;
-    }
+    
 
 
 }
