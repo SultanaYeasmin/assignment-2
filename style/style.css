@@ -417,7 +417,7 @@ td {
 }
 .bmi-form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
     justify-content: space-between;
     margin-bottom: 20px;
     gap: 5px;
