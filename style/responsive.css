@@ -192,13 +192,22 @@
         flex-direction: column;
         height: auto;
         }
-
+        .section-4-container > div {
+            width: 100%;
+        }
         .section-4-header {
             position: relative;
             margin-left: 20px;
             margin-right: 20px;
             text-align: justify;
             
+        }
+        .bmi-form {
+            
+            grid-template-columns: repeat(2, 0.5fr);
+            align-items: center;
+            margin-bottom: 10px;
+            gap: 5px;
         }
 /* .............section-4 ends here */
 

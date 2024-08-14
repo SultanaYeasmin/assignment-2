@@ -403,7 +403,7 @@ nav,
     padding-top: 50px;
 }
 .section-4-container > div {
-    flex: 1;
+    width: 50%;
 }
 table {
     border-collapse: collapse; }
@@ -430,6 +430,7 @@ td {
     border: none;
     height: 30px;
     padding-left: 5px;
+    
 }
 
 #last-row-form {
