@@ -153,13 +153,14 @@
 
     .sq-collage {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 150px);
+        grid-template-rows: repeat(4, 1fr);
         gap: 15px;
         
     }
     .sq-collage > img {
         height: auto;
     }
+    
 /* unique-section-ends */
 /* section-3-starts........optional */
 .section-3-column1 {
