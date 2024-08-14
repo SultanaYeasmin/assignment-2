@@ -290,12 +290,12 @@ nav,
     border-radius: 12px;
 }
 
-.unique-section>div>img {
+.unique-section > div > img {
     border-radius: 12px;
     height: 100%;
 }
 
-.unique-section>div {
+.unique-section > div {
     width: 48%;
 }
 
