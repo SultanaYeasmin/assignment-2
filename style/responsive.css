@@ -100,7 +100,6 @@
     }
 
     .five-hundred {
-       
         font-size: 20px;
     }
 
@@ -196,8 +195,8 @@
 
         .section-4-header {
             position: relative;
-            margin-left: 0px;
-            margin-right: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
             text-align: justify;
             
         }
