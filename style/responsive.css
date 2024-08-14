@@ -222,20 +222,30 @@
 
 
     /* footer starts............. */
-    .image-container-1 {
+   
 
     .footer-container {
         flex-direction: column;
         align-items: flex-start;
-    }
+            padding-top: 40px;
+            padding-bottom: 70px;
+        }
+        .footer-column-11 > .footer-column-1{
+            width: 100%;
+        }
+    .footer-container > div {
+        width: 100%;
+        }
 
+        .footer-column-22{
+            flex-direction: column;
+        } 
     .footer-copyright {
         text-align: left;
     }
 
     /* footer-part ends */
 
-    
-
-
 }
+
+
