@@ -274,7 +274,7 @@ nav,
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    height: 200px;
+    height: 400px;
     padding: 30px;
 }
 
@@ -292,7 +292,7 @@ nav,
 
 .sq-collage > img {
     border-radius: 12px;
-    height: 50%;
+    height: 100%;
 }
 
 .unique-section > div {
